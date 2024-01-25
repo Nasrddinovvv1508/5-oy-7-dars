@@ -11,7 +11,7 @@ const repassword = document.getElementById('repassword');
 const form = document.getElementById('form');
 
 
-
+// Button listener
 button && button.addEventListener('click', function(e) {
     e.preventDefault();
 
@@ -24,6 +24,7 @@ button && button.addEventListener('click', function(e) {
             username: username.value,
             password: password.value,
         }
+
 
         let data = getData();
         data.push(user);

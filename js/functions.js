@@ -95,7 +95,33 @@ function validate(data) {
     return true;
 }
 
+function validateLogin(data) {
+
+
+    if (!data.password.value) {
+        alert('Parol kiritilishi shart!');
+        data.password.focus();
+        return false;
+    }
+
+    if (password.value.length < 3) {
+        alert('Parol uzunligi kamida 3ta bolishi shart shart!');
+        data.password.focus();
+        return false;
+    }
+
+    if (!data.username.value) {
+        alert('Foydalanuvchi nomi kiritilishi shart!');
+        data.username.focus();
+        return false;
+    }
 
 
 
-export {validate, getData}
+    return true;
+}
+
+
+
+
+export {validate, validateLogin, getData}
