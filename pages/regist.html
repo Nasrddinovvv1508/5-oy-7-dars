@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <h1>Registratsiya</h1>
+
+        <form id="form">
+            <div class="mb-4">
+                <label for="firstname" class="form-label">Nomi*</label>
+                <input type="text" class="form-control" id="firstname">
+            </div>
+
+            <div class="mb-4">
+                <label for="lastname" class="form-label">Familiya</label>
+                <input type="text" class="form-control" id="lastname">
+            </div>
+
+            <div class="mb-4">
+                <label for="year" class="form-label">Tug'ilgan yili</label>
+                <input type="date" class="form-control" id="year">
+            </div>
+
+            <div class="mb-4">
+                <label for="email" class="form-label">Elektron pochta*</label>
+                <input type="email" class="form-control" id="email">
+            </div>
+
+            <div class="mb-4">
+                <label for="username" class="form-label">Foydalanuvchi nomi*</label>
+                <input type="text" class="form-control" id="username">
+            </div>
+
+            <div class="mb-4">
+                <label for="password" class="form-label">Parol yaratish*</label>
+                <input type="password" class="form-control" id="password">
+            </div>
+
+            <div class="mb-4">
+                <label for="repassword" class="form-label">Parolni qayta kiritish*</label>
+                <input type="password" class="form-control" id="repassword">
+            </div>
+
+
+
+            <button id="button" class="btn btn-primary w-25">Registratsiya</button>
+
+        </form>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="../js/regist.js" type="module"></script>
+</body>
+
+</html>
